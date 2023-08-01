@@ -13,3 +13,10 @@ document.getElementById("promptenter").onclick=function(){
     document.getElementById('statement').innerHTML=" let firstname =prompt('Enter Your First Name')"
 
 }
+document.getElementById("variableName").onclick=function(){
+    let firstname =prompt('Enter Your First Name')
+    let secondname =prompt('Enter Your second Name')
+    document.getElementById('Result').innerHTML = firstname
+    document.getElementById('statement').innerHTML=" let firstname =prompt('Enter Your First Name')"
+
+}
